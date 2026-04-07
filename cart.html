@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart - Premium E-commerce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Product</a></li>
+        <li><a href="index.html">Shop</a></li>
+      </ul>
+    </div>
+    <div class="nav-logo">
+      <a href="index.html">
+        <img
+          src="https://lume-demo1.myshopify.com/cdn/shop/files/logo_48e9d757-b2c3-4747-9038-b9100d8e8787.png?v=1747198873&width=352"
+          alt="E-commerce Logo" />
+      </a>
+    </div>
+    <div class="nav-addons">
+      <div class="addon">
+        <i class="fa-solid fa-cart-arrow-down"></i>
+        <a href="./cart.html">Cart <span id="cart-count" style="font-weight: 800; color: #fb641b;"></span></a>
+      </div>
+      <div class="addon">
+        <i class="fa-regular fa-heart"></i>
+        <a href="#">Wishlist</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="standalone-cart-section">
+      <h2 class="standalone-cart-title">Shopping Cart</h2>
+      <div class="standalone-cart-layout">
+        <div class="standalone-cart-items-wrapper">
+        </div>
+
+        <div class="standalone-cart-summary">
+          <h3>Price Details</h3>
+          <div id="cart-summary-content">
+          </div>
+          <button class="checkout-btn">PLACE ORDER</button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
